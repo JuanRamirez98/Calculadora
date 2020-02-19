@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,900&display=swap');
+
+body {
+  background: #f6fafd;
+  font-family: 'Roboto';
+}
+
+.o-calculator-container {
+  justify-content: center;
+  display: flex;
+  margin: 25vh;
+  flex-wrap: wrap;
+}
+
+/*------*/
+
+.o-first-column-container {
+ 
+  margin-right: 1rem;
+  padding: 1rem;
+}
+
+.o-title {
+  font-family: 'roboto';
+}
+
+.o-numbers p {
+  color: #BBC7D6;
+  font-size: 13px;
+
+
+
+  
+}
+.o-uao{
+font-weight: 400;
+font-size: 48px;
+padding: 0;
+margin: 0;
+color: #2F4251;
+}
+.o-calculator{
+  font-weight:bold;
+  font-size: 48px;
+  padding: 0;
+  margin: 0;
+  color: #2F4251;
+}
+.o-numbers input{
+  background:transparent;
+  border: none;
+  border-bottom: 1.5px solid #52729E;
+  width: 250px;
+  font-size: 48px;
+  color: #2F4251;
+  
+  
+}
+
+
+  
+
+
+
+/*---------*/
+
+.o-second-column-container {
+  display: flex;
+  align-items: center;
+  padding: 1rem;
+}
+
+.o-equals {
+}
+.o-equals button {
+  border-radius: 30px;
+  width: 149px;
+  height: 50px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 2rem;
+  background-color: red;
+  border: none;
+  color: #ffffff;
+   
+}
+
+/*----------*/
+
+.o-third-column-container {
+  display: flex;
+  align-items: center;
+  margin-left: 1rem;
+  padding: 1rem;
+}
+.o-result p {
+  color: #bbc7d6;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  margin: 2rem 0rem 0rem 2rem;
+}
+
+.o-result {
+  width: 385px;
+  height: 195px;
+  left: 814px;
+  top: 401px;
+  background: #ffffff;
+  box-shadow: 0px 4px 25px rgba(100, 168, 221, 0.23);
+  border-radius: 21px;
+}
+.o-text-result {
+  margin-left: 2rem;
+  font-size: 72px;
+  color: #2F4251;
+}
+.o-text-result input{
+  background:transparent;
+  border: none;
+  
+  width: 250px;
+  font-size: 48px;
+  
+  
+  
+}
+
+.o-operation select{
+  padding: 1rem;
+  border-radius: 30px;
+  color: white;
+  background-color: #2F4251;
+  font-family: 'Roboto';
+  width: 275px;
+  height: 61px;
+ 
+  
+
+}
+.o-operation p {
+ 
+  color: #BBC7D6;
+  font-size: 13px;
+
+
+}
+.o-operation{
+  margin-top: 3rem;
+}
+select {
+   width: 400px;
+  text-align-last:center; 
+   font-size: 24px;
+   line-height: 28px;
+  }
+

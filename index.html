@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Calculadora</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='calculos.js'></script>
+</head>
+
+<body>
+
+    <div class="o-calculator-container">
+
+        <div class="o-first-column-container">
+
+            <div class="o-title">
+
+                <h1 class="o-uao">UAO</h1>
+                <h1 class="o-calculator">CALCULATOR</h1>
+
+            </div>
+
+            <div class="o-numbers">
+
+                <p>Numero 1</p>
+                <input type="text" id="nuNumber1">
+                <p>Numero 2</p>
+                <input type="text" id="nuNumber2"   >
+
+            </div>
+
+            <div class="o-operation">
+
+                <p>Operación</p>
+                <select id="operation" >
+                    <option value="Suma" >Suma</option>
+                    <option value="Resta">Resta</option>
+                    <option value="Multplicación">Multiplicación</option>
+                    <option value="Division">Division</option>
+                </select>
+
+            </div>
+
+        </div>
+
+        <div class="o-second-column-container">
+
+            <div class="o-equals">
+
+                <button onclick="clic()" type="button">=</button>
+
+            </div>
+
+        </div>
+
+        <div class="o-third-column-container">
+
+            <div class="o-result">
+                <p>Resultado</p>
+                <div class="o-text-result">
+                <input ="text" id="nuNumber6" >
+
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</body>
+
+</html>
